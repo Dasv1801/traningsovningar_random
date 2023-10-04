@@ -1,0 +1,18 @@
+import time
+import random
+
+x = input("hur många repitioner vill du göra? tex 6 st")
+
+# Lista med övningar
+traningsovningar_Axlar = ["Axelpress", "Axelfram", "Axelbak hantelrodd"]
+traningsovningar_Armar = ["bicepscurl", "tricepspress"]
+
+# Slumpa en övning från Traningsovningar_Axlar
+slumpad_axelövning = random.choice(traningsovningar_Axlar)
+
+# Slumpa en övning från Traningsovningar_Armar
+slumpad_armövning = random.choice(traningsovningar_Armar)
+
+# printa övningar
+print(slumpad_axelövning)
+print(slumpad_armövning)
