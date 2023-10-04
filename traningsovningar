@@ -8,11 +8,16 @@ traningsovningar_Axlar = ["Axelpress", "Axelfram", "Axelbak hantelrodd"]
 traningsovningar_Armar = ["bicepscurl", "tricepspress"]
 
 # Slumpa en övning från Traningsovningar_Axlar
-slumpad_axelövning = random.choice(traningsovningar_Axlar)
+slumpad_axelovning = random.choice(traningsovningar_Axlar)
 
 # Slumpa en övning från Traningsovningar_Armar
-slumpad_armövning = random.choice(traningsovningar_Armar)
+slumpad_armovning = random.choice(traningsovningar_Armar)
 
 # printa övningar
-print(slumpad_axelövning)
-print(slumpad_armövning)
+print("")
+
+time.sleep(1)
+print(x + " st " + slumpad_axelovning)
+
+time.sleep(1)
+print(x + " st " + slumpad_armovning)
